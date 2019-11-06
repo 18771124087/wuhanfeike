@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/garybackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="61"
+                android:background="@color/transparent"
+                android:hint="请输入员工编号"
+                android:inputType="number"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="查询"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <!--
+  <TextView
+      
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:text="编号:"
+      android:layout_gravity="center"
+      android:gravity="center_vertical"
+      />  
+     <TextView
+      android:layout_width="0dp"
+      android:layout_weight="2"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:text="用户姓名:"
+      android:layout_gravity="center"
+      android:gravity="center_vertical"
+      />  
+        <TextView
+      android:layout_width="0dp"
+      android:layout_weight="2"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:text="科室部门:"
+      android:layout_gravity="center"
+      android:gravity="center_vertical"
+      />
+        -->
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/manager_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:divider="@color/garytext"
+        android:dividerHeight="0.5dp" />
+
+</LinearLayout>

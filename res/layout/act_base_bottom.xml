@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@color/garybackground"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/bt_button0"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:src="@drawable/nav_chax"  />
+
+    <ImageView
+        android:id="@+id/bt_button1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:src="@drawable/nav_caij"  />
+
+    <ImageView
+        android:id="@+id/bt_button2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:src="@drawable/nav_songj"  />
+
+    <ImageView
+        android:id="@+id/bt_button3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:src="@drawable/nav_jies" />
+    
+    <ImageView
+        android:id="@+id/bt_button4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:src="@drawable/nav_baog" />
+
+</LinearLayout>

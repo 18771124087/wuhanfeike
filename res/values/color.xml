@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="green">#57a2c1</color>
+    <color name="purple">#B452CD</color>
+    <color name="garytext">#cececd</color>
+    <color name="garytext_zhi">#a1a1a1</color>
+    <color name="garytextlistview">#cccccc</color>
+    <color name="garybackground">#e6e8de</color>
+    <color name="black">#363636</color>
+    <color name="blue">#ADD8E6</color>
+    <color name="bubblered">#e5434b</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="lightgray">#eaeaea</color>
+    
+    <color name="graybottom">#e1e1e1</color>
+    <color name="graybottom_2">#f6f5f6</color>
+    
+    <color name="redbutton">#FF3030</color>
+    
+    
+    <color name="loading_version">#e6f4f5</color>
+    
+    <color name="loginbackground">#F7F3F0</color>
+</resources>
